@@ -1,0 +1,72 @@
+.register-login-box{
+    width: 40%;
+}
+
+.display-grid{
+    display: flex;
+    justify-content: center;
+     width: 100%;
+}
+.display-grid > div{
+     width: 50%;
+}
+
+.todo-card{
+    padding: 30px;
+   background-color: rgb(244, 242, 242);
+}
+
+.bottom-right{
+    float:right;
+}
+
+.index .index-div:not(:first-child){
+    display: none;
+}
+
+.product{
+    display: flex;
+    justify-content: center;
+}
+.product-div{
+  width: 30%;
+}
+
+.thankyou{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+.tick{
+    font-size: 50px;
+}
+.price b{
+    color:#62A61E ;
+}
+@media screen and (max-width: 900px) {
+    .register-login-box{
+        width: 65%;
+    }
+
+    .display-grid{
+        grid-template-columns:1fr;
+       grid-gap: 20px;
+    }
+    .display-grid > div {
+        width: 70%;
+    }
+  }
+@media screen and (max-width: 480px) {
+    .register-login-box{
+        width: 80%;
+    }
+
+    .display-grid{
+        display: grid;
+        grid-template-columns: 1fr;
+       
+    }
+    .display-grid > div {
+        width: 100%;
+    }
+  }
