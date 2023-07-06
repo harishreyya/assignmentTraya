@@ -75,5 +75,5 @@ List and provide a brief overview of the technologies used in the project.
 
 - `AWS`
 used EC2 for deploying the MongoDb (database), node js (Backend) and react js (frontend)
--`vercel`
+- `vercel`
 for deploying react js (frontend)
