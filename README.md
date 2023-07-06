@@ -11,7 +11,7 @@ The key features of application.
 - APIs for retrieving task statistics
 
 ## Deployed link
-[link]([https://frontend-traya.vercel.app/)
+[link](https://frontend-traya.vercel.app/)
 
 ## Installation or How to run the app
 I created cloud database using MongoDb Atlas. So, if you want to run our code then please read the instructions below :
